@@ -1,10 +1,13 @@
-# it gives a number to cars
+# it gives a number to cars / space in a car / drivers / passengers
 cars = 100
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90
+# calculation to find out the cars not driven
 cars_not_driven = cars - drivers
+# corresponance of cars_driven 
 cars_driven = drivers
+# calculation 
 carpool_capacity = cars_driven * space_in_a_car
 average_passengers_per_car = passengers / cars_driven
 
